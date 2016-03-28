@@ -1,0 +1,118 @@
+<lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 http://www.imsglobal.org/xsd/imsmd_rootv1p2p1.xsd">
+	<general>
+		<identifier>
+			<catalog>URI</catalog>
+			<entry>http://jczerwinski.github.io/open-science-slideshow/slideshow.html</entry>
+		</identifier>
+		<title><string language="eng">Open Science Slideshow</string></title>
+		<language>eng-US</language>
+		<description>
+			<string language="eng">
+				A slideshow outlining conventions, recommendations, and best practices for Open Science projects.
+			</string>
+		</description>
+		<keyword><string lang="eng">Open Science</string></keyword>
+		<keyword><string lang="eng">Open Research</string></keyword>
+		<keyword><string lang="eng">Reproducible Research</string></keyword>
+		<keyword><string lang="eng">Open Methodology</string></keyword>
+		<keyword><string lang="eng">Open Source</string></keyword>
+		<keyword><string lang="eng">Open Data</string></keyword>
+		<keyword><string lang="eng">Open Peer Review</string></keyword>
+		<keyword><string lang="eng">Open Access</string></keyword>
+		<keyword><string lang="eng">Open Educational Resources</string></keyword>
+		<aggregationLevel>
+			<source>LOMv1.0</source>
+			<value>1</value>
+		</aggregationLevel>
+	</general>
+	<lifeCycle>
+		<version><string language="none">1.0.0</string></version>
+		<contribute>
+			<role>
+				<source>LOMv1.0</source>
+				<value>publisher</value>
+			</role>
+			<entity>
+				BEGIN:VCARD
+				VERSION:3.0
+				N:Czerwinski;Jamie;
+				FN:Jamie Czerwinski
+				ORG:Athabasca University
+				END:VCARD
+			</entity>
+			<date>
+				<dateTime>2016-03-25</dateTime>
+			</date>
+		</contribute>
+	</lifeCycle>
+	<metaMetadata>
+		<identifier>
+			<catalog>URI</catalog>
+			<entry>http://jczerwinski.github.io/open-science-slideshow/cancore.xml</entry>
+		</identifier>
+		<contribute>
+			<role>
+				<source>LOMv1.0</source>
+				<value>creator</value>
+			</role>
+			<entity>
+				BEGIN:VCARD
+				VERSION:3.0
+				N:Czerwinski;Jamie;
+				FN:Jamie Czerwinski
+				ORG:Athabasca University
+				END:VCARD
+			</entity>
+			<date>
+				<dateTime>2016-03-25</dateTime>
+			</date>
+		</contribute>
+		<metadataSchema>LOMv1.0</metadataSchema>
+		<metadataSchema>CanCorev2.0</metadataSchema>
+		<language>eng</language>
+	</metaMetadata>
+	<technical>
+		<format>text/html</format>
+		<size></size>
+		<location>http://jczerwinski.github.io/open-science-slideshow/slideshow.html</location>
+		<requirement/>
+		<installationRemarks/>
+		<otherPlatformRequirements/>
+	<duration/>
+	</technical>
+	<educational>
+		<learningResourceType>
+			<source>LOMv1.0</source>
+			<value>narrative text</value>
+		</learningResourceType>
+		<intendedEndUserRole>
+			<source>LOMv1.0</source>
+			<value>teacher</value>
+		</intendedEndUserRole>
+		<context>
+			<source>LOMv1.0</source>
+			<value>higher education</value>
+		</context>
+		<typicalAgeRange>
+			<string language="eng">Adult</string>
+		</typicalAgeRange>
+		<typicalLearningTime>
+		<duration>PT1H</duration>
+		</typicalLearningTime>
+	</educational>
+	<rights>
+		<cost>
+			<source>LOMv1.0</source>
+			<value>no</value>
+		</cost>
+		<copyrightAndOtherRestrictions>
+			<source>LOMv1.0</source>
+			<value>yes</value>
+		</copyrightAndOtherRestrictions>
+		<description>
+			<string language="eng">
+				Released under the terms of the MIT License. Copyright (c) 2016 Jamie Czerwinski. You can find the text of the license at http://jczerwinski.github.io/open-science-slideshow/LICENSE
+			</string>
+		</description>
+	</rights>
+</lom>

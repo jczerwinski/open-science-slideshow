@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Imagining a Better Learning Object Ecosystem</title>
+	<base href="/" />
+	<link rel="stylesheet" type="text/css" href="assets/styles/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/tomorrow-night.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+</head>
+<body>
+	<noscript>
+		<div class="deprecation-warning">
+			<h1>Please enable Javascript</h1>
+			<p>Demo requires your browser to have Javascript enabled.
+			<a href="http://enable-javascript.com" target="_blank">Learn more</a></p>
+		</div>
+	</noscript>
+	<!-- Content gets inserted here -->
+	<article>
+		<header>
+			<h1>Imagining a Better Learning Object Ecosystem</h1>
+			<p class="">by</p>
+			<address>
+				Jamie Czerwinski<br>
+				<a href="mailto:" rel="author">jamie.czerwinski@gmail.com</a>
+			</address>
+			<p>
+			Submitted in partial fulfillment of the requirements for the degree of 
+			</p>
+			<h2>Master of Science in Information Systems</h2>
+			<p>at</p>
+			<h2>Athabasca University</h2>
+			<p>as coursework for</p>
+			<p class="course">
+			Computer Science 601<br>
+			Survey of Computing and Information Systems<br>
+			Assignment 3<br>
+			Instructor: Richard Huntrods
+			</p>
+			<p>Tuesday, February 16, 2016</p>
+		</header>
+		<section>
+			<h1>Abstract</h1>
+<p>This paper takes a greenfield approach to envisioning an ideal Reusable Learning Object ecosystem. It suggests ease of development, ease of distribution and access, and relevance as requirements of such a system. It concludes with five actionable recommendations for stakeholders: encourage flexibility in learning object development processes, cite or deploy learning objects as web documents, embed learning object metadata within the learning object itself, improve the learning object search experience, and facilitate crowdsourced contributions to learning objects and their metadata.</p>
+<h1>Introduction</h1>
+<h2>What are Reusable Learning Objects?</h2>
+<p>Reusable Learning Objects (RLO's) are &quot;(digital media) representations designed to afford uses in different educational contexts&quot;.<sup>1</sup> Examples include digitally delivered presentations, practice exercises, simulations, conceptual models, information, and contextual representations. They can take many forms and be implemented in many different ways. This definition is general enough to allow for a large amount of flexibility in RLO design.</p>
+<p>Reusable Learning Objects can -- and should -- have metadata associated with them. This helps make information about the RLO -- like it's title, author, subject matter, and intended audience -- more accessible. Various RLO metadata format standards exist.<sup>2</sup> Such metadata can be written manually using a text editor or metadata editor tool, or generated automatically from the learning object by an automatic metadata generator.</p>
+<p>RLO's are often distributed through repositories. Like metadata formats, various learning object repositories also exist.<sup>3</sup> These repositories range from public and general purpose to private and specialized. Most repositories will index any provided metadata and index it. Some will automatically generate metadata from learning objects.</p>
+<p>Reusable Learning Objects, their metadata, and learning object repositories comprise a complete ecosystem of digital learning materials. Educational content developers can distribute RLO's, annotate them with metadata, and distribute them to relevant repositories. Teachers and learners can then search those repositories for learning objects supporting their educational objectives. In corporate environments, these tools can support the distribution of educational materials to a diverse workforce.</p>
+<h1>Discussion</h1>
+<h2>Motivation for Best Practices</h2>
+<p>Born more of computer science than education, RLO's have a broad and abstract definition -- sometimes too abstract. This can make it difficult for RLO developers to move quickly from concept to delivery, and for users to quickly find useful learning objects.</p>
+<p><img src="http://imgs.xkcd.com/comics/the_general_problem.png" alt="Abstract Condiment Passing System">
+<em><a href="https://xkcd.com/974/">XKCD: The General Problem</a></em></p>
+<h2>In an Ideal World, Learning Objects Would...</h2>
+<ul>
+<li>Be easy to develop</li>
+<li>Be easy to distribute and access</li>
+<li>Be relevant</li>
+</ul>
+<p>As of 2016, how should we approach these goals?</p>
+<h3>Ease of Development</h3>
+<p>The broad definition of learning objects allows for an equally broad group of developers, tools, and workflows to develop them. As such, learning object developers should use whatever development processes they are most comfortable and productive with. A broad developer base using their favourite tools should produce the most diverse quantity of high quality learning objects possible.</p>
+<h3>Ease of Distribution and Access</h3>
+<p>Easy distribution of and access to learning objects combines two subgoals:</p>
+<ul>
+<li>An easy distribution workflow for content creators</li>
+<li>Easy content discovery, acquisition, and consumption by consumers</li>
+</ul>
+<p>We consider consumers needs first.</p>
+<h4>Easy Access</h4>
+<p>Web browser users comprise an expansive audience. Search engines are a common port of call,<sup>4</sup> and make diverse material accessible through an excellent interface. The learning object delivery model should replicate this structure as closely as possible.</p>
+<p>Ideally, a user would open their preferred browser on their preferred device, navigate to a learning object search engine, and search for content. To support this discovery model, learning object repositories should strive to provide an accessible search interface. They should also make thel earning objects they host and their metadata accessible to web crawlers and users in order to support the development of third party learning object search engines.</p>
+<p>A particularly useful model is that of Google Scholar and the academic literature. Google Scholar indexes metadata from html meta tags in citation pages for journal articles. Citation pages then provide access to the journal articles being indexed. This model would fit well for learning objects, as it allows for metadata to be embedded in the citation page, as well as for diverse media formats to be cited.</p>
+<p>To summarize, easy content discovery, acquisition, and consumption by consumers is best supported by:</p>
+<ol>
+<li>
+<p>Web-accessible learning objects annotated with HTML-embedded metadata within the learning object itself and/or its citation page</p>
+</li>
+<li>
+<p>Accessible and effective search engines for finding these objects</p>
+</li>
+</ol>
+<h4>Easy Distribution</h4>
+<p>Consumer preferences for learning object accessibility informs what an effective distribution workflow for content creators should look like. In support of (1) above, learning object developers should strive to distribute their work as HTML documents, or as assets embedded in HTML documents. In support of (2), relevant learning object metadata should also be embedded within these documents. Beyond this, as Google Scholar and the academic literature demonstrate, significant flexibility exists in terms of how learning objects can be hosted.</p>
+<p>Modern browsers are ubiquitous, fast, self-updating, and can deliver complex applications and rich media. Learning objects distributed as javascript, HTML, and CSS assets are likely to have maximum portability moving forward. Learning object developers should exploit this opportunity to reach the broadest possible audience.</p>
+<h3>Relevance</h3>
+<p>A relevant learning object should meet two requirements:</p>
+<ol>
+<li>Its metadata is comprehensive and accurate</li>
+<li>It's content is correct and up-to-date</li>
+</ol>
+<p>Ensuring relevant metadata may require ongoing maintenance. To the extent that learning object discovery patterns evolve, metadata should be updated to service these new patterns. For example, if an existing technique begins to be called by a new name, metadata should be updated to reflect this new name.</p>
+<p>Unfortunately, learning object developers and repository managers cannot be expected to perform this maintenance. Developers may become unavailable for various reasons, and repository managers may not have the expertise to accurately assess the maintenance needs for a particular learning object. Responsibility for metadata maintenance must fall elsewhere.</p>
+<p>Two groups are well positioned to perform this maintenance: educational users and search engines. Crowdsourced information tends to be more accurate and reliable than expert assessment.<sup>5</sup> Search engine technology can be developed to map queries to learning objects even with unmaintained metadata. Educators and learners can learn to use related queries to find related learning objects.</p>
+<p>To support these requirements, learning object repositories should seek to engage users in updating and maintaining learning object metadata, and learning object content. Leadership in learning object search is also required.</p>
+<h1>Conclusion</h1>
+<p>Progress towards a robust learning object ecosystem requires that learning objects:</p>
+<ul>
+<li>Be easy to develop</li>
+<li>Be easy to distribute and access</li>
+<li>Be relevant</li>
+</ul>
+<p>Striving towards the following goals can help meet these requirements:</p>
+<ul>
+<li>Minimize constraints on the learning object development process</li>
+<li>Distribute learning objects either as native web applications or documents, or as assets acessible via a dedicated citation webpage</li>
+<li>Embed learning object metadata within the learning object and its citation page</li>
+<li>Strive for excellence in learning object search engines</li>
+<li>Enable crowdsourced updates to learning objects and their metadata</li>
+</ul>
+<h1>References</h1>
+<p>[1]D. Churchill, “Towards a Useful Classification of Learning Objects,” Educational Technology Research and Development, no. 5, p. 479, 2007.</p>
+<p>[2]E. Duval, “Standardized metadata for education: a status report.”</p>
+<p>[3]D. Roy, S. Sarkar, and S. Ghose, “A Comparative Study of Learning Object Metadata, Learning Material Repositories, Metadata Annotation &amp; an Automatic Metadata Annotation Tool,” in Advances in Semantic Computing, vol. 2, TMRF, 2010, pp. 103–126.</p>
+<p>[4]“The top 500 sites on the web.” Alexa.</p>
+<p>[5]C. Davies, M. Fernandes, and N. Norman, “Assessing the accuracy and quality of Wikipedia entries compared to popular online encyclopaedias: A preliminary comparative study across disciplines in English, Spanish, and Arabic.” Epic, 2012.</p>
+
+		</section>
+	</article>
+
+	<!-- Script loading. Use main.js for your scripts -->
+	<script src="http://localhost:35729/livereload.js"></script>
+
+</body>
+</html>

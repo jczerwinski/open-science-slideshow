@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Open Science Slideshow</title>
+        <link rel="meta" type="text/xml" href="cancore.xml">
+        <link rel="license" type="text/plain" href="LICENSE">
+        <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.css">
+        <link rel="stylesheet" href="bower_components/reveal.js/css/theme/serif.css">
+        <link rel="stylesheet" href="bower_components/highlightjs/styles/tomorrow-night.css">
+        <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/styles/slideshow-styles.css">
+        <script type="text/javascript" src="bower_components/headjs/dist/1.0.0/head.js"></script>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section id="open-science"><!-- Open Science -->
+                    <h1 style="color: midnightblue">Open Science</h1>
+                    <div style="font-size: 45%; max-width: 350px; margin-left: auto; margin-right: auto;">
+                        <p class="">by</p>
+                        <address>
+                            Jamie Czerwinski<br>
+                            <a href="mailto:" rel="author">jamie.czerwinski@gmail.com</a>
+                        </address>
+                        <p>
+                        Submitted in partial fulfillment of the requirements for the degree of Master of Science in Information Systems at Athabasca University as coursework for.
+                        </p>
+                        <p class="course">
+                        Computer Science 601<br>
+                        Survey of Computing and Information Systems<br>
+                        Assignment 3<br>
+                        Instructor: Richard Huntrods
+                        </p>
+                        <p>Sunday, February 27, 2016</p>
+                    </div>
+                </section>
+                <section><!-- Open Science -->
+                    <h2>What is Open Science?</h2>
+                    <dl>
+                        <dt class="fragment">Open:</dt>
+                        <dd class="fragment"><blockquote><a href="http://opendefinition.org/">
+                            “Open means anyone can freely access, use, modify, and share for any purpose (subject, at most, to requirements that preserve provenance and openness).”
+                        </a></blockquote></dd>
+                        <dt class="fragment">Science:</dt>
+                        <dd class="fragment"><blockquote><a href="">"Science is the pursuit and application of knowledge and understanding of the natural and social world following a systematic methodology based on evidence."</a></blockquote></dd>
+                    </dl>
+                </section>
+                <section><!-- Open Science -->
+                    <h2>What is Open Science?</h2>
+                    <h3>Bringing it together...</h3>
+                    <dl>
+                        <dt>Open Science</dt>
+                        <dd>Open Science is the pursuit of knowledge of the world following freely accessible, usable, modifiable, and shareable methodologies based on evidence.</dd>
+                    </dl>
+                </section>
+                <section><!-- Open Science -->
+                    <h2>Why Open Science?</h2>
+                    <p>Open Science is:</p>
+                    <ul>
+                        <li class="fragment">easier to verify (more falsifiable)</li>
+                        <li class="fragment">more trustworthy</li>
+                        <li class="fragment">easy to extend</li>
+                        <li class="fragment">easy to teach</li>
+                        <li class="fragment">easy to learn</li>
+                    </ul>
+                </section>
+                <section><!-- Open Science -->
+                    <h2>How can Open Science help?</h2>
+                    <h3>Gay Canvassing Study</h3>
+                    <p>In 2014, Michael LaCour and Donald Green had their study <q>When contact changes minds: An experiment on transmission of support for gay equality</q> <a href="http://science.sciencemag.org/content/346/6215/1366">published in Science</a>.</p>
+                    <p class="fragment">The study concluded that having gay canvassers discuss gay marriage equality with participants increased support for gay marriage equality among participants.</p>
+                </section>
+                <section><!-- Open Science -->
+                    <h2>How can Open Science help?</h2>
+                    <h3>Gay Canvassing Study</h3>
+                    <img src="assets/img/lacour.png">
+                </section>
+                <section><!-- Open Science -->
+                    <h2>How Can Open Science Help?</h2>
+                    <h3>Gay Canvassing Study</h3>
+                    <p>Broockman and Kalla soon discovered evidence that the study was fraudulant, but not without difficulty.</p>
+                    <p class="fragment">LaCour <strong><span style="color: #8C001A">never published his survey data</span></strong>. The was discovered by comparing the distribution of results from the paper with the distribution of another <strong><span style="color: #8C001A">privately available</span></strong> dataset that LaCour had access to.</p>
+                </section>
+                <section><!-- Open Science -->
+                    <h2>How Can Open Science Help?</h2>
+                    <h3>Gay Canvassing Study</h3>
+                    <h4>Q-Q Plot of Private Dataset vs LaCour Results</h4>
+                    <img src="assets/img/lacour_criticism.png">
+                </section>
+                <section><!-- Open Science -->
+                    <h2>How Can Open Science Help?</h2>
+                    <h3>Gay Canvassing Study</h3>
+                    <ul>
+                        <li class="fragment">Green -- LaCour's respected senior co-author -- could have required a more open design, leading him to discover the irregularities before submission to Science</li>
+                        <li class="fragment">Open Data could have helped critics analyze the paper more deeply than they were able</li>
+                        <li class="fragment">A culture of Open Science would cast skepticism on studies that are not open</li>
+                        <li class="fragment">Such skepticism could trigger deeper peer review that might catch the fraud before publication</li>
+                    </ul>
+                </section>
+                <section><!-- Open Science -->
+                    <h2>How Can Open Science Help?</h2>
+                    <h3>Most Research Findings are False</h3>
+                    <p class="fragment">Evidence suggests that <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1182327/">most published research results are false</a>.</p>
+                    <p class="fragment">Open Science can help by:</p>
+                    <ul>
+                        <li class="fragment">Ensuring experiments and analyses are more easily repeated, increasing the volume of replication studies</li>
+                        <li class="fragment">Allow for re-use of existing data in new analyses</li>
+                        <li class="fragment">Make meta-analyses easier by increasing the volume of replica studies and making them more easily accessible</li>
+                    </ul>
+                </section>
+                <section><!-- Open Science -->
+                    <h2>Elements of Open Science</h2>
+                    <ul>
+                        <li class="fragment">Open Methodology</li>
+                        <li class="fragment">Open Source</li>
+                        <li class="fragment">Open Data</li>
+                        <li class="fragment">Open Access</li>
+                        <li class="fragment">Open Peer Review</li>
+                        <li class="fragment">Open Educational Resources</li>
+                    </ul>
+                </section>
+                <section id="open-methodology"><!-- Open Methodology -->
+                    <h2>Open Methodology</h2>
+                    <h3>What is Open Methodology?</h3>
+                    <p>Open Science Projects should:</p>
+                    <ul>
+                        <li class="fragment">Use non-proprietary research methods</li>
+                        <li class="fragment">Use methods described by open standards</li>
+                        <li class="fragment">Comprehensively describe these methods in plain language</li>
+                        <li class="fragment">Uses <a href="#/open-source">Open Source</a> software to implement these methods</li>
+                    </ul>
+                </section>
+                <section><!-- Open Methodology -->
+                    <h2>Open Methodology</h2>
+                    <h3>Why use Open Methodology?</h3>
+                    <ul>
+                        <li class="fragment">Proprietary methods impose a monetary barrier on researchers</li>
+                        <li class="fragment">Proprietary methods may not be <a href="#/open-peer-review">Open to Peer Review</a></li>
+                        <li class="fragment">Methods should be as simple and accessible as possible while still meeting research objectives</li>
+                        <li class="fragment"><a href="#/open-data">Open Data</a> can mitigate intrinsically high barriers -- eg. Particle accelerators, space science</li>
+                        <li class="fragment">Open Methodology makes <a href="#/open-peer-review">Open Peer Review</a> possible</li>
+                    </ul>
+                </section>
+                <section><!-- Open Methodology -->
+                    <h2>Open Methodology</h2>
+                    <h3>Case Study: BRCA1 and BRCA2 Genetic Test Patent</h3>
+                    <ul>
+                        <li class="fragment">Myriad Genetics held and enforced US patents giving it a monopoly over genetic tests for breast cancer</li>
+                        <li class="fragment">Until 2013, methods relying on these tests could not be considered open</li>
+                        <li class="fragment">In 2013-June, the <span class="tooltip" title="Supreme Court of the United States">SCOTUS</span> <a href="#/brca-scotus">invalidated the patent</a></li>
+                        <li class="fragment">After this ruling, such methods would be considered open</li>
+                    </ul>
+                </section>
+                <section data-background="assets/img/osi_keyhole_600X600_90ppi.png" data-background-size="600px" id="open-source"><!-- Open Source -->
+                    <div style="width: 100%; height: 100%; background-color: rgba(240,241,235,0.5)">
+                        <h2 style="color: maroon">Open Source</h2>
+                        <h3>Open Science projects should:</h3>
+                        <ul>
+                            <li class="fragment">Use free and open source software</li>
+                            <li class="fragment">License any custom software used in the project under an open source license</li>
+                            <li class="fragment">Publish this software in a publically accessible repository like GitHub or BitBucket</li>
+                            <li class="fragment">Make computations and manuscript generation reproducible with a few commands</li>
+                        </ul>
+                    </div>
+                </section>
+                <section data-background="assets/img/osi_keyhole_600X600_90ppi.png" data-background-size="600px"><!-- Open Source -->
+                    <div style="width: 100%; height: 100%; background-color: rgba(240,241,235,0.5)">
+                        <h2 style="color: maroon">Open Source</h2>
+                        <h3>Why use Open Source?</h3>
+                        <ul>
+                            <li class="fragment">Minimizes monetary barriers to researchers</li>
+                            <li class="fragment">Makes <a href="#/open-peer-review">Open Peer Review</a> easier</li>
+                        </ul>
+                    </div>
+                </section>
+                <section data-background="assets/img/osi_keyhole_600X600_90ppi.png" data-background-size="600px"><!-- Open Source -->
+                    <div style="width: 100%; height: 100%; background-color: rgba(240,241,235,0.5)">
+                        <h2 style="color: maroon">Open Source</h2>
+                        <h3>Example</h3>
+                        <h4>Instruct researchers to start from a fresh install of <a href="http://releases.ubuntu.com/14.04/">Ubuntu 14.04.4 LTS</a></h4>
+                        <p>Ubuntu does not need to be installed and can run live from its installation media.</p>
+                        </div>
+                </section>
+                <section data-background="assets/img/osi_keyhole_600X600_90ppi.png" data-background-size="600px"><!-- Open Source -->
+                    <div style="width: 100%; height: 100%; background-color: rgba(240,241,235,0.5)">
+                        <h2 style="color: maroon">Open Source</h2>
+                        <h3>Example</h3>
+                        <h4>Provide a short script that will install the system-level dependencies required to acquire and prepare the project environment.</h4>
+                        <pre><code class="bash">
+    sudo apt-get install git node-js
+                        </code></pre>
+                    </div>
+                </section>
+                <section data-background="assets/img/osi_keyhole_600X600_90ppi.png" data-background-size="600px"><!-- Open Source -->
+                    <div style="width: 100%; height: 100%; background-color: rgba(240,241,235,0.5)">
+                        <h2 style="color: maroon">Open Source</h2>
+                        <h3>Example</h3>
+                        <h4>Get the project and run it!</h4>
+                        <pre><code class="bash">
+    git clone https://github.com/jczerwinski/google-trends-ei-claims
+    cd google-trends-ei-claims
+    # These lines will depend on the packages and scripts 
+    npm install
+    npm start
+                        </code></pre>
+                    </div>
+                </section>
+                <section data-background="assets/img/osi_keyhole_600X600_90ppi.png" data-background-size="600px"><!-- Open Source -->
+                    <div style="width: 100%; height: 100%; background-color: rgba(240,241,235,0.5)">
+                        <h2 style="color: maroon">Open Source</h2>
+                        <h3>Example</h3>
+                        <p>That's all that should be required to install any dependencies, get the project, download project data, perform the project analysis, and render a completed report from a template.</p>
+                        <img src="assets/img/open-study-example.png">
+                    </div>
+                </section>
+                <section data-background="assets/img/osi_keyhole_600X600_90ppi.png" data-background-size="600px"><!-- Open Source -->
+                    <div style="width: 100%; height: 100%; background-color: rgba(240,241,235,0.5)">
+                        <h2 style="color: maroon">Open Source</h2>
+                        <h3>Example</h3>
+                        <p>And of course, <a href="http://choosealicense.com/">use an open source license</a>.</p>
+                        <pre><code class="markdown">
+Permission is hereby granted, free of charge, to any person obtaining 
+a copy of this software and associated documentation files 
+(the "Software"), to deal in the Software without restriction, 
+including without limitation the rights to use, copy, modify, merge, 
+publish, distribute, sublicense, and/or sell copies of the Software, 
+and to permit persons to whom the Software is furnished to do so...
+                        </code></pre>
+                    </div>
+                </section>
+                <section id="open-data"><!-- Open Data -->
+                    <img src="assets/img/open-data.png" style="border: 0;">
+                    <h3>Open Science projects should:</h3>
+                    <ul>
+                        <li class="fragment">Use widely trusted, publically accessible data sources whenever possible</li>
+                        <li class="fragment">Use data formats and repositories that are both machine and human readable</li>
+                        <li class="fragment">Use data published under an <a href="http://opendatacommons.org/licenses/odbl/">Open Data License</a>
+                        <li class="fragment">Publish any data generated by the project consistent with the above</li>
+                    </ul>
+                </section>
+                <section><!-- Open Data -->
+                    <img src="assets/img/open-data.png" style="border: 0;">
+                    <h3>Why use Open Data?</h3>
+                    <ul>
+                        <li class="fragment">Allows researchers to compare their data to yours to help detect errors in collection</li>
+                        <li class="fragment">Supports aggregation of your data in meta-analyses</li>
+                        <li class="fragment">Enables complementary research on your data set</li>
+                        <li class="fragment">Demonstrates integrity against data falsification</li>
+                    </ul>
+                </section>
+                <section data-background="assets/img/Green_check.svg.png" data-background-size="600px"><!-- Open Data -->
+                    <img src="assets/img/open-data.png" style="border: 0;">
+                    <h3>Good Data Formats</h3>
+                    <h4>Tab Separated Values (TSV)</h4>
+                    <pre><code style="background-color: rgba(29, 31, 33, .7)">
+col_1   col_2   col_3
+a       b       c 
+1       2       3
+Apple   Orange  Banana
+Car     Truck   Plane
+                    </code></pre>
+                    <ul class="custom">
+                        <li class="fragment check">Highly human readable</li>
+                        <li class="fragment check">Highly machine readable</li>
+                        <li class="fragment check">Compact</li>
+                        <li class="fragment ex">Only supports tabular data</li>
+                    </ul>
+                </section>
+                <section data-background="assets/img/Green_check.svg.png" data-background-size="600px"><!-- Open Data -->
+                    <img src="assets/img/open-data.png" style="border: 0;">
+                    <h3>Good Data Formats</h3>
+                    <h4>Tab Separated Values (TSV)</h4>
+                    <h5 style="background-color: rgba(82,208,23,0.6)">Bonus: GitHub renders TSVs nicely.</h5>
+                    <img src="assets/img/rendered_csv.png">
+                </section>
+                <section data-background="assets/img/Green_check.svg.png" data-background-size="600px"><!-- Open Data -->
+                    <img src="assets/img/open-data.png" style="border: 0;">
+                    <h3>Good Data Formats</h3>
+                    <h4>YAML</h4>
+                    <pre><code class="yaml">
+invoice: 34843
+date   : 2001-01-23
+bill-to: &id001
+    given  : Chris
+    family : Dumars
+    address:
+        lines: |
+            458 Walkman Dr.
+            Suite #292
+        city    : Royal Oak
+        state   : MI
+        postal  : 48046
+ship-to: *id001
+                    </code></pre>
+                </section>
+                <section data-background="assets/img/Green_check.svg.png" data-background-size="600px"><!-- Open Data -->
+                    <img src="assets/img/open-data.png" style="border: 0;">
+                    <h3>Good Data Formats</h3>
+                    <h4>YAML</h4>
+                    <ul class="custom">
+                        <li class="fragment check">Highly human readable</li>
+                        <li class="fragment check">Highly machine readable</li>
+                        <li class="fragment check">Moderately compact</li>
+                        <li class="fragment check">Supports many data types</li>
+                    </ul>
+                </section>
+                <section data-background="assets/img/Green_check.svg.png" data-background-size="600px"><!-- Open Data -->
+                    <img src="assets/img/open-data.png" style="border: 0;">
+                    <h3>Good Data Formats</h3>
+                    <h4>XML</h4>
+                    <pre><code class="xml">
+<?xml version="1.0"?>
+<?xml-stylesheet href="catalog.xsl" type="text/xsl"?>
+<catalog>
+   <product description="Cardigan Sweater" product_image="cardigan.jpg">
+      <catalog_item gender="Men's">
+         <item_number>QWZ5671</item_number>
+         <price>39.95</price>
+         <size description="Medium">
+            <color_swatch image="red_cardigan.jpg">Red</color_swatch>
+            <color_swatch image="burgundy_cardigan.jpg">Burgundy</color_swatch>
+         </size>
+         <size description="Large">
+            <color_swatch image="red_cardigan.jpg">Red</color_swatch>
+            <color_swatch image="burgundy_cardigan.jpg">Burgundy</color_swatch>
+         </size>
+      </catalog_item>
+      <catalog_item gender="Women's">
+         <item_number>RRX9856</item_number>
+         <price>42.50</price>
+         <size description="Small">
+            <color_swatch image="red_cardigan.jpg">Red</color_swatch>
+            <color_swatch image="navy_cardigan.jpg">Navy</color_swatch>
+            <color_swatch image="burgundy_cardigan.jpg">Burgundy</color_swatch>
+         </size>
+         <size description="Medium">
+            <color_swatch image="red_cardigan.jpg">Red</color_swatch>
+            <color_swatch image="navy_cardigan.jpg">Navy</color_swatch>
+            <color_swatch image="burgundy_cardigan.jpg">Burgundy</color_swatch>
+            <color_swatch image="black_cardigan.jpg">Black</color_swatch>
+         </size>
+         <size description="Large">
+            <color_swatch image="navy_cardigan.jpg">Navy</color_swatch>
+            <color_swatch image="black_cardigan.jpg">Black</color_swatch>
+         </size>
+         <size description="Extra Large">
+            <color_swatch image="burgundy_cardigan.jpg">Burgundy</color_swatch>
+            <color_swatch image="black_cardigan.jpg">Black</color_swatch>
+         </size>
+      </catalog_item>
+   </product>
+</catalog>
+                    </code></pre>
+                </section>
+                <section data-background="assets/img/Green_check.svg.png" data-background-size="600px"><!-- Open Data -->
+                    <img src="assets/img/open-data.png" style="border: 0;">
+                    <h3>Good Data Formats</h3>
+                    <h4>XML</h4>
+                    <ul class="custom">
+                        <li class="fragment check">Highly machine readable</li>
+                        <li class="fragment check">Moderately human readable</li>
+                        <li class="fragment check">Supports many data types</li>
+                        <li class="fragment ex">Moderately verbose</li>
+                    </ul>
+                </section>
+                <section data-background="assets/img/600px-Red_x.svg.png" data-background-size="600px"><!-- Open Data -->
+                    <img src="assets/img/open-data.png" style="border: 0;">
+                    <h3>Bad Data Formats</h3>
+                    <h4>XLS (Microsoft Excel)</h4>
+                    <ul class="custom">
+                        <li class="fragment ex">Poorly machine readable -- complex, proprietary</li>
+                        <li class="fragment ex">Not human readable -- binary format</li>
+                        <li class="fragment check">Supports many data types</li>
+                    </ul>
+                </section>
+                <section><!-- Open Data -->
+                    <img src="assets/img/open-data.png" style="border: 0;">
+                    <h3>Original Research Data</h3>
+                    <p>
+                        Release original research data:
+                    </p>
+                    <ul>
+                        <li class="fragment">As soon as it is available</li>
+                        <li class="fragment">As raw as possible</li>
+                        <li class="fragment">In its own repository, independent of analysis</li>
+                    </ul>
+                    <p class="fragment">Why?</p>
+                    <ul>
+                        <li class="fragment">Usable by other researchers</li>
+                        <li class="fragment">Helps prevent data falsification to support hypotheses during analysis phase</li>
+                    </ul>
+                </section>
+                <section data-background="assets/img/openaccess.png" data-background-size="600px"><!-- Open Access -->
+                    <h2>Open Access</h2>
+                    <p class="fragment">Open Science projects should publish their results in Open Access journals, or otherwise make their results freely available on the web.</p>
+                    <p class="fragment">Why?</p>
+                    <p class="fragment">Open Access reduces monetary and institutional barriers to independent researchers.</p>
+                </section>
+                <section data-background="assets/img/openaccess.png" data-background-size="600px"><!-- Open Access -->
+                    <h2>Open Access</h2>
+                    <h3>Publishing Models</h3>
+                    <ul class="custom">
+                        <li class="fragment check">Green Open Access - Author hosts paper on a self-hosted or community-hosted server. Not peer reviewed.</li>
+                        <li class="fragment check">Gold Open Access - Author submits paper to Open Access journal. Author pays journal for peer review and publication service</li>
+                        <li class="fragment check">Hybrid Open Access - Author submits paper to traditional journal. Journal provides Open Access to article</li>
+                        <li class="fragment ex">Traditional Journals - Author submits paper to journal. Journal charges subscribers for access</li>
+                    </ul>
+                </section>
+                <section id="open-peer-review"><!-- Open Peer Review -->
+                    <h2>Open Peer Review</h2>
+                    <h3>Open Science projects should publish in journals that:</h3>
+                    <ul>
+                        <li class="fragment">Publish the identity of editors and referees</li>
+                        <li class="fragment">Publish the contents of peer review communications</li>
+                        <li class="fragment">Facilitates peer review from the public</li>
+                    </ul>
+                </section>
+                <section><!-- Open Peer Review -->
+                    <h2>Open Peer Review</h2>
+                    <h3>Referee and Editor Attribution</h3>
+                    <p>Why publish editor and referee identities?</p>
+                    <ul>
+                        <li class="fragment">Incentivizes reviewers to be fair and balanced</li>
+                        <li class="fragment">Allows readers to consider the source of the reviews</li>
+                    </ul>
+                </section>
+                <section><!-- Open Peer Review -->
+                    <h2>Open Peer Review</h2>
+                    <h3>Review Disclosure</h3>
+                    <p>Why disclose the content of peer review?</p>
+                    <ul>
+                        <li class="fragment">Helps readers better understand the nature of criticisms of the study</li>
+                        <li class="fragment">Encourages high quality review content</li>
+                    </ul>
+                </section>
+                <section><!-- Open Peer Review -->
+                    <h2>Open Peer Review</h2>
+                    <h3>Public Peer Review</h3>
+                    <p>Public Peer Review enables members of the general public to comment on an article in a public forum that is published with the article</p>
+                    <p>Why public peer review?</p>
+                    <ul>
+                        <li class="fragment">Encourages more people to participate in the scientific process</li>
+                        <li class="fragment">Encourages interdisciplinary collaboration</li>
+                    </ul>
+                </section>
+                <section><!-- Open Peer Review -->
+                    <h2>Open Peer Review</h2>
+                    <h3>Example: F1000Research</h3>
+                    <p class="fragment">A <a href="http://f1000research.com/articles/4-6/v2">2015 study</a> found that, among four STEM journals, only F1000Research met all its criteria for following an Open Peer Review process.</p>
+                    <p class="fragment">Ulrich Pöschl -- one of the study's referees -- wrote:</p>
+                    <blockquote class="fragment">Overall, I see no well-founded basis for the claim that the particular form open peer review practiced by F1000Research would deserve the attribute “gold standard of open peer review”, and I would suggest to substantiate or drop this postulate.</blockquote>
+                </section>
+                <section><!-- Open Peer Review -->
+                    <h2>Open Peer Review</h2>
+                    <h3>Example: F1000Research</h3>
+                    <p>Ironically, this complaint would not be publicly accessible if the study were published in any of the other three journals assessed in the study!</p>
+                </section>
+                <section id="open-educational-resources"><!-- Open Educational Resources -->
+                    <h2>Open Educational Resources</h2>
+                    <p>Open Science projects should promote, teach about, encapsulate and distribute their work using open educational resources.</p>
+                    <h3 class="fragment">Examples</h3>
+                    <ul>
+                        <li class="fragment">Provide a permissively licensed slide deck summarizing the project that is publically available and permissively licensed</li>
+                        <li class="fragment">Create and distribute reusable learning objects that encapsulate elements of the project likely to be of value to educators</li>
+                    </ul>
+                </section>
+                <section id="conclusion"><!-- Conclusion -->
+                    <h2>Conclusion</h2>
+                    <p>Projects that are consistent with these elements can be considered Open Science Projects:</p>
+                    <h3>Elements of Open Science</h3>
+                    <ul>
+                        <li class="fragment">Open Methodology</li>
+                        <li class="fragment">Open Source</li>
+                        <li class="fragment">Open Data</li>
+                        <li class="fragment">Open Access</li>
+                        <li class="fragment">Open Peer Review</li>
+                        <li class="fragment">Open Educational Resources</li>
+                    </ul>
+                </section>
+                <section><!-- Conclusion -->
+                    <h2>Quiz</h2>
+                    <p>Take <a href="quiz/jsQuizEngine/src/Default.html">this quiz</a> to test your understanding of the material presented.</p>
+                </section>
+                <section><!-- Conclusion -->
+                    <h2>That's it! Thanks for reading!</h2>
+                </section>
+                <section>
+                    <h2>References</h2>
+                        [1]ASSOCIATION FOR MOLECULAR PATHOLOGY ET AL . v. MYRIAD GENETICS, INC., ET AL. 2016.<br>
+                        [2]D.  Broockman, J.  Kalla and P.  Aronow, "Irregularities in LaCour (2014)", 2015. [Online] Available: http://stanford.edu/~dbroock/broockman_kalla_aronow_lg_irregularities.pdf<br>
+                        [3]"File:Red x.svg - Wikimedia Commons", Commons.wikimedia.org, 2005. [Online]. Available: https://commons.wikimedia.org/wiki/File:Red_x.svg. [Accessed: 28- Mar- 2016].<br>
+                        [4]“Global OER Logo | United Nations Educational, Scientific and Cultural Organization.” [Online]. Available: http://www.unesco.org/new/en/communication-and-information/access-to-knowledge/open-educational-resources/global-oer-logo/. [Accessed: 25-Mar-2016].<br>
+                </section>
+                <section>
+                    <h2>References</h2>
+                        [5]File:Green check.svg - Wikimedia Commons", Commons.wikimedia.org, 2016. [Online]. Available: https://commons.wikimedia.org/wiki/File:Green_check.svg. [Accessed: 28- Mar- 2016].<br>
+                        [6]“Hidden surprises in the Bitcoin blockchain and how they are stored: Nelson Mandela, Wikileaks, photos, and Python software.”<br>
+                        [7]A. mike_bader, “lacour and the opportunity costs of intransigent irb reviews,” scatterplot, 21-May-2015.<br>
+                        [8]“od_640x120_blue.png (640×120).” [Online]. Available: http://assets.okfn.org/images/ok_buttons/od_640x120_blue.png. [Accessed: 24-Mar-2016].<br>
+                        [9]“Open access,” Wikipedia, the free encyclopedia. 17-Mar-2016.<br>
+                        [10]“Open Data Commons Open Database License (ODbL) | Open Data Commons.” [Online]. Available: http://opendatacommons.org/licenses/odbl/. [Accessed: 24-Mar-2016].<br>
+                    </section>
+                    <section>
+                    <h2>References</h2>
+                        [11]E. Ford, “Open peer review at four STEM journals: an observational overview,” F1000Research, Jan. 2015.<br>
+                        [12]S. Kasberger, “Open Science,” openscienceASAP, 08-Aug-2013. [Online]. Available: http://openscienceasap.org/open-science/. [Accessed: 26-Mar-2016].<br>
+                        [13]"Inderscience Publishers - linking academia, business and industry through research", Inderscience.com, 2016. [Online]. Available: http://www.inderscience.com/info/inarticle.php?artid=45454. [Accessed: 28- Mar- 2016].<br>
+                        [14]“OP_RETURN and the Future of Bitcoin - Bitzuma.” [Online]. Available: http://bitzuma.com/posts/op-return-and-the-future-of-bitcoin/. [Accessed: 26-Mar-2016].<br>
+                        [15]“OSI Logo Files | Open Source Initiative.” [Online]. Available: https://opensource.org/node/442. [Accessed: 23-Mar-2016].<br>
+                    </section>
+                    <section>
+                    <h2>References</h2>
+                        [16]“Our definition of science,” The Science Council. [Online]. Available: http://sciencecouncil.org/about-us/our-definition-of-science/. [Accessed: 26-Mar-2016].<br>
+                        [17]“Rendering CSV and TSV data - User Documentation.” [Online]. Available: https://help.github.com/articles/rendering-csv-and-tsv-data/. [Accessed: 24-Mar-2016].<br>
+                        [18]“Retrospective analysis of the quality of reports by author-suggested and non-author-suggested reviewers in journals operating on open or single-blind peer review models -- Kowalczuk et al. 5 (9) -- BMJ Open.” [Online]. Available: http://bmjopen.bmj.com/content/5/9/e008707. [Accessed: 25-Mar-2016].<br>
+                        [19]“The Open Definition - Open Definition - Defining Open in Open Data, Open Content and Open Knowledge.” [Online]. Available: http://opendefinition.org/. [Accessed: 26-Mar-2016].<br>
+                    </section>
+                    <section>
+                    <h2>References</h2>
+                        [20]“Ubuntu 14.04.4 LTS (Trusty Tahr).” [Online]. Available: http://releases.ubuntu.com/14.04/. [Accessed: 24-Mar-2016].<br>
+                        [21]“Ubuntu logo | Ubuntu Design.” [Online]. Available: http://design.ubuntu.com/brand/ubuntu-logo. [Accessed: 24-Mar-2016].<br>
+                        [22]J. P. A. Ioannidis, “Why Most Published Research Findings Are False,” PLoS Med, vol. 2, no. 8, Aug. 2005.<br>
+                        [23]“YAML Ain’t Markup Language.” [Online]. Available: http://www.yaml.org/start.html. [Accessed: 25-Mar-2016].
+                </section>
+            </div>
+        </div>
+        <script src="bower_components/reveal.js/js/reveal.js"></script>
+        <script>
+            Reveal.initialize({
+                dependencies: [
+                    // Cross-browser shim that fully implements classList - https://github.com/eligrey/classList.js/
+                    { src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+
+                    // Interpret Markdown in <section> elements
+                    { src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+
+                    // Syntax highlight for <code> elements
+                    { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+
+                    // Zoom in and out with Alt+click
+                    { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true },
+
+                    // Speaker notes
+                    { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true },
+
+                    // MathJax
+                    { src: 'bower_components/reveal.js/plugin/math/math.js', async: true }
+                ],
+
+                // The "normal" size of the presentation, aspect ratio will be preserved
+                // when the presentation is scaled to fit different resolutions. Can be
+                // specified using percentage units.
+                width: 960,
+                height: 700,
+
+                // Factor of the display size that should remain empty around the content
+                margin: 0.1,
+
+                // Bounds for smallest/largest possible scale to apply to content
+                minScale: 0.2,
+                maxScale: 1.5,
+
+                // Display controls in the bottom right corner
+                controls: true,
+
+                // Display a presentation progress bar
+                progress: true,
+
+                // Display the page number of the current slide
+                slideNumber: false,
+
+                // Push each slide change to the browser history
+                history: false,
+
+                // Enable keyboard shortcuts for navigation
+                keyboard: true,
+
+                // Enable the slide overview mode
+                overview: true,
+
+                // Vertical centering of slides
+                center: true,
+
+                // Enables touch navigation on devices with touch input
+                touch: true,
+
+                // Loop the presentation
+                loop: false,
+
+                // Change the presentation direction to be RTL
+                rtl: false,
+
+                // Turns fragments on and off globally
+                fragments: true,
+
+                // Flags if the presentation is running in an embedded mode,
+                // i.e. contained within a limited portion of the screen
+                embedded: false,
+
+                // Flags if we should show a help overlay when the questionmark
+                // key is pressed
+                help: true,
+
+                // Flags if speaker notes should be visible to all viewers
+                showNotes: false,
+
+                // Number of milliseconds between automatically proceeding to the
+                // next slide, disabled when set to 0, this value can be overwritten
+                // by using a data-autoslide attribute on your slides
+                autoSlide: 0,
+
+                // Stop auto-sliding after user input
+                autoSlideStoppable: true,
+
+                // Enable slide navigation via mouse wheel
+                mouseWheel: false,
+
+                // Hides the address bar on mobile devices
+                hideAddressBar: true,
+
+                // Opens links in an iframe preview overlay
+                previewLinks: false,
+
+                // Transition style
+                transition: 'default', // none/fade/slide/convex/concave/zoom
+
+                // Transition speed
+                transitionSpeed: 'default', // default/fast/slow
+
+                // Transition style for full page slide backgrounds
+                backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
+
+                // Number of slides away from the current that are visible
+                viewDistance: 3,
+
+                // Parallax background image
+                parallaxBackgroundImage: '', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+
+                // Parallax background size
+                parallaxBackgroundSize: '', // CSS syntax, e.g. "2100px 900px"
+
+                // Number of pixels to move the parallax background per slide
+                // - Calculated automatically unless specified
+                // - Set to 0 to disable movement along an axis
+                parallaxBackgroundHorizontal: null,
+                parallaxBackgroundVertical: null
+
+            });
+        </script>
+    </body>
+</html>

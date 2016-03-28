@@ -1,0 +1,27 @@
+{
+  "name": "open-science-slideshow",
+  "authors": [
+    "Jamie Czerwinski <jamie.czerwinski@gmail.com>"
+  ],
+  "description": "A slideshow on Open Science principles and best practices.",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "open science",
+    "open data",
+    "open access",
+    "open peer review",
+    "open educational resources",
+    "open methodology",
+    "open source"
+  ],
+  "license": "MIT",
+  "homepage": "http://jczerwinski.github.io/open-science-slideshow",
+  "private": true,
+  "dependencies": {
+    "highlightjs": "^9.2.0",
+    "reveal.js": "^3.2.0",
+    "headjs": "^1.0.3",
+    "font-awesome": "fontawesome#^4.5.0"
+  }
+}

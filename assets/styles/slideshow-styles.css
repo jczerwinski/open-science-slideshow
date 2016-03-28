@@ -1,0 +1,37 @@
+.reveal a {
+  color: navy;
+  text-decoration: none;
+  -webkit-transition: color 0.15s ease;
+  -moz-transition: color 0.15s ease;
+  transition: color 0.15s ease;
+}
+
+.reveal a:hover {
+  color: darkslateblue;
+  text-shadow: none;
+  border: none;
+}
+
+.reveal .roll span:after {
+  color: #fff;
+  background: #25211c;
+}
+
+/* Checks and exes for bullets */
+ul.custom {
+  list-style-type: none;
+}
+
+li.check:before {
+  font-family: 'FontAwesome';
+  content: '\f00c';
+  margin:0 5px 0 -15px;
+  color: rgb(0,255,0);
+}
+
+li.ex:before {
+  font-family: 'FontAwesome';
+  content: '\f00d';
+  margin:0 5px 0 -15px;
+  color: rgb(255,0,0);
+}
