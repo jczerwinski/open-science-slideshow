@@ -16,7 +16,7 @@
     "open source"
   ],
   "license": "MIT",
-  "homepage": "http://jczerwinski.github.io/open-science-slideshow",
+  "homepage": "http://jczerwinski.github.io/open-science-slideshow/index.html",
   "private": true,
   "dependencies": {
     "highlightjs": "^9.2.0",
